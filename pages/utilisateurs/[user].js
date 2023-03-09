@@ -1,7 +1,9 @@
 export default function user({ user }) {
   return (
     <div className='container px-4 pt-3'>
-      <h2 className='text-center mb-4'>Nom d'utilisateur: {user.username}</h2>
+      <h2 className='text-center mb-4'>
+        Nom de l&#39;utilisateur: {user.username}
+      </h2>
       <div className='row justify-content-center'>
         <div className='col-12 col-lg-8 col-xl-6'>
           <div className='card p-2'>
