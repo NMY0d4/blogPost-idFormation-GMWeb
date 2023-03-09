@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function article({ article }) {
-  console.log(article);
   return (
     <div className='container px-4 pt-5'>
       <h1 className='text-center'>{article.title}</h1>

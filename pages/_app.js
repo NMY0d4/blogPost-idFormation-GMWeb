@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from '@/components/Container/Container.component';
 import Head from 'next/head';
 import '@/styles/globals.css';
