@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { v4 as uuidv4 } from 'uuid';
 import React from 'react';
 
-export default function index({ articles }) {
+export default function Index({ articles }) {
   return (
     <div className='container px-4 py-5'>
       <h1 className='text-center'>Bienvenue sur le blog</h1>

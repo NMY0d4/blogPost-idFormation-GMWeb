@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { v4 as uuidv4 } from 'uuid';
 
-export default function index({ users }) {
+export default function Index({ users }) {
   return (
     <div className='container px-4 pt-5'>
       <h1 className='text-center'>La liste des utilisateurs</h1>
